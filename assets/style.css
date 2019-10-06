@@ -1,0 +1,30 @@
+body {
+    background-color: yellow;
+}
+
+#outside-title {
+    font-size: 40px;
+    color: navy;
+}
+
+.container {
+    border: solid yellow 5px;
+    background-color: navy;
+    text-align: center;
+    height: 50%;
+    margin-top: 10%;
+}
+
+#challenge {
+    color: yellow;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#beginTestbtn {
+    background-color: yellow;
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-bottom: 5%;
+}
