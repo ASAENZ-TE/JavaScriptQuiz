@@ -8,13 +8,19 @@
     <link rel="stylesheet" href="assets\style.css"> 
 </head>
 <body>
-    <div class="testarea">
-        <h1 id="outside-title"> JavaScript Test! </h1>
-        <div class="container">
-            <h1 id="challenge"> Wanna test your knowledge and see how much you know about javascript? Take the test below! </h1>
-            <button id="beginTestbtn"> Begin Test! </button>
+    <div id="heading"><h1 id="text"> JAVASCRIPT QUIZ <h1></div>
+        <div id="container">
+            <div id="quiz">
+                <div id="question"></div>
+                <button class="option"><input type="radio" name="option" value="1" /><span id="option1" onclick="nextques();"></span></button>
+                <button class="option"><input type="radio" name="option" value="2" /><span id="option2" onclick="nextques();"></span></button>
+                <button class="option"><input type="radio" name="option" value="3" /><span id="option3" onclick="nextques();"></span></button>
+                <button class="option"><input type="radio" name="option" value="4" /><span id="option4" onclick="nextques();"></span></button>
+            </div>
         </div>
-    </div>
-    <script src="./script.js"></script>
+        <div id="result" style="display:none">
+        </div>
+    <script type="text/javascript" src="questions.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
