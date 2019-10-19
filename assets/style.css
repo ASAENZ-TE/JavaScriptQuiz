@@ -28,6 +28,10 @@ body
       font-family: Georgia, 'Times New Roman', Times, serif;
 	
 }
+#h1 {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #question
 {
    background-color: navy;

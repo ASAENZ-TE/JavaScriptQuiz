@@ -1,9 +1,26 @@
 var questions = [
-    ["One of the most commonly used data types in javascript would be:", "brackets", "manipulations", "strings","cooleans", "3"],
-    ["In a for loop, a variable must be _______ an array length.", "equal to", "less than", "more than", "longer than","2"],
-    ["___________ is another way to write JavaScript using a different syntax.", "jQuery", "JSON", "JAVA", "algorithms","1"],
-    ["JavaScript is considered the _______ of a page.", "bones/structure", "skin/display", "brain/logic", "shortcut","3"],
-    ["Which is not a kind of function?", " named function ", " orphaned function", " anonymous function ", "self invoking function","2"],
-    ["To make a function run, you have to _______ it.", "  recreate", "  summon", " call", " text","3"],
-    ["You can use JavaScript to do everything except:", " regenerate", " set attributes", " create elements", " style","1"],
-    ];
+    {
+   title: "One of the most commonly used data types in javascript would be:",
+   choices: ["strings", "cooleans", "manipulation", "brackets"],
+   answer: "strings"
+   },
+   {
+   title: "In a for loop, a variable must _____ than an array length.",
+   choices: ["greater than", "equal to", "less than", "no variable required"],
+   answer: "less than"
+   },
+   {
+   title: "___________ is another way to write JavaScript using a different syntax.",
+   choices: ["JAVA", "JSON", "algorithms", "jQuery"],
+   answer: "jQuery"
+   },
+   {
+   title: "JavaScript is considered the _______ of a page.",
+   choices: ["structure/bones", "skin/display", "brain/logic", "shortcut"],
+   answer: "brain/logic"
+   },
+   {
+   title: "Which is not a kind of function?",
+   choices: ["named function", "self invoking function", "orphaned function", "anonymous function"],
+   answer: "orphaned function"
+   }];
