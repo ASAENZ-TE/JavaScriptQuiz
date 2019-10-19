@@ -3,7 +3,7 @@ var quizDiv = document.querySelector("#quiz");
 var newArea = document.querySelector("#newStuffDiv");
 var timerSpot = document.querySelector("#timerSpot");
 var questionsIndex = 0;
-var secondsLeft = 10;
+var secondsLeft = 120;
 var score = 0;
 
 
