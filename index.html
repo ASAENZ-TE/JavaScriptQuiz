@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> JavaScript Test </title>
-    <link rel="stylesheet" href="assets\style.css"> 
-</head>
-<body>
-    <p id="timerSpot"> </p>
-    <div id="heading"><h1 id="text"> JAVASCRIPT QUIZ <h1></div>
-        <div id="container">
-            <div id="quiz">
-               <h1 id="h1"> Wanna test your knowledge of JavaScript and test it against your peers? Take the quiz below! </h1>
-                <button id="beginTestbtn"> Start Quiz! </button>
-            </div>
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    
+    <title class="title is-1"> The JavaScript Quiz! </title>
+
+  </head>
+
+  <body>
+    <header>
+      <text> Time left on the clock: <text id="time"> 0 </text> </text></text>
+    </header>
+    <div class="container">
+
+        <div class="tile is-parent">
+            <article class="tile is-child notification is-warning">
+                <div class="content has-text-centered">
+
+                    <div class="startQuizDiv">
+                        <h2 id="disappear1" onclick="begin001()">The JavaScript Quiz! </h2>
+                        <p id="disappear2" onclick="begin001()"> Wanna test your knowledge of JavaScript and compare it against your peers? Just take the short quiz below! Each time a question is answered wrong, 15 seconds will be removed from your timer! </p>
+                    </div>
+                
+                    <div id="quiz">
+                        <h1 id="title"></h1>
+                        <div id="option1"></div>
+                        <div id="option2"></div>
+                        <div id="option3"></div>
+                        <div id="option4"></div>
+                        <div id="answer"></div>
+                    </div>
+
+                        <div id="disappear">
+                            <button class="button is-danger is-rounded startBtn" onclick="begin001()"> Let's begin! </button>
+                        </div>
+                
+                    <div id="next1"></div>
+
+                </div>
+            </article>
         </div>
-        <div id="result" style="display:none">
-        </div>
+
+
+    </div>
+    
+    <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="questions.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-</body>
+
+  </body>
 </html>
